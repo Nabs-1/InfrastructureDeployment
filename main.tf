@@ -5,7 +5,7 @@ provider "aws" {
 terraform {
   backend "s3" {
     bucket = "nabilah-jenkins"
-    key    = "nabilah.tfstate"
+    key    = "ghaffar.tfstate"
     region = "us-east-2"
   }
 }
